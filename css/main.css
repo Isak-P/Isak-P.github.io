@@ -93,7 +93,7 @@ input[type=text] {
     margin-top: 0.3em;
 }
 
-input[type=button] {
+button {
     background-color: #F89104;
     border: none;
     width: 100%;
@@ -105,7 +105,7 @@ input[type=button] {
     cursor: pointer;
 }
 
-input[type=button]:hover {
+button:hover {
     background-color: #CA7805;
 }
 
@@ -204,7 +204,7 @@ p {
         margin: 0;
     }
 
-    input[type=button] {
+    button {
         height: fit-content;
         font-size: 1.1em;
         margin-left: 1em;

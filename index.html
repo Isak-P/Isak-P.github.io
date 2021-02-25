@@ -29,7 +29,7 @@
                         <p>Example: "Stockholm"</p>
                     </div>
 
-                    <input type="button" value="Find food now" id="cta-btn">
+                    <button type="button" onclick="animateButtonClick()">Find food now</button>
                 </form>
             </div>
         </section>
@@ -43,20 +43,6 @@
         <img src="images/food.jpg" alt="Picture of dimsum in a bowl.">
     </section>
 
-    <script>
-
-        let btn = document.getElementById("cta-btn");
-        let overlay = document.getElementById("overlay");
-
-        btn.addEventListener('click', () => {
-            overlay.style.display = 'grid';
-            overlay.classList.add('animate-overlay');
-            setTimeout(function() {
-                overlay.style.display = 'none';
-                overlay.classList.remove('animate-overlay');
-            }, 3000);
-        })
-
-    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
