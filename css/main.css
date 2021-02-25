@@ -11,13 +11,9 @@ body {
 }
 
 .main-bg {
-    background: #307D99 url('../images/healthyfood.jpg');
-    background-position: 50% 100%;
-    max-width: 100%;
-    height: auto;
+    background: #307D99 url('../images/oranges.jpg');
+    background-size: cover;
     color: white;
-    /*-webkit-text-stroke-width: 0.08em;
-    -webkit-text-stroke-color: rgb(13, 77, 16); */
     text-align: center;
     padding-bottom: 4em;
 }
