@@ -11,9 +11,13 @@ body {
 }
 
 .main-bg {
-    background: #307D99 url('../images/oranges.jpg');
-    background-position: 12% 83%;
+    background: #307D99 url('../images/healthyfood.jpg');
+    background-position: 50% 100%;
+    max-width: 100%;
+    height: auto;
     color: white;
+    /*-webkit-text-stroke-width: 0.08em;
+    -webkit-text-stroke-color: rgb(13, 77, 16); */
     text-align: center;
     padding-bottom: 4em;
 }
@@ -49,8 +53,8 @@ h1 span {
 h1 span::before {
     content: ' ';
     position: absolute;
-    width: 2.35em;
-    background: rgba(255, 166, 0, 0.705);
+    width: 6em;
+    background: rgba(252, 165, 3, 0.801);
     height: 0.4em;
     bottom: 0;
     z-index: -1;
